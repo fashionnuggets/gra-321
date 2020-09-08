@@ -9,10 +9,10 @@ h3 {
  font-family:'EB Garamond', serif;}
 
 
- a:link { color: #3366FF; text-decoration: none; }
+ a:link { color: yellow; text-decoration: none; }
 
- a:visited { color: #3366FF; text-decoration: none; }
+ a:visited { color: green; text-decoration: none; }
 
- a:active { color: #3366FF; text-decoration: none; }
+ a:active { color: orange; text-decoration: none; }
 
- a:hover { color: #006699; text-decoration: none; }
+ a:hover { color: red; text-decoration: none; }
