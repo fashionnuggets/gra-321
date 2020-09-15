@@ -1,5 +1,5 @@
 /*---EB+Garamond & Oxygen Font Import ---*/
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Oxygen:wght@400;700&display=swap');
 
 body {
   background-color: MistyRose;}
@@ -21,10 +21,9 @@ body {
 
   h2 {
     color: #fff;
-    font-size:60px;
+    font-size:52px;
     font-family: 'Oxygen', Arial, sans-serif;
-    font-style: bold;
+    font-weight: 700;
     position: relative;
     text-align: center;
-
   }
