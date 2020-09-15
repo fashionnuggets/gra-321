@@ -21,6 +21,9 @@ body {
 
     a:hover { color: LightCyan; text-decoration: none; }
 
+    a:hover {  background-color: SlateGray;
+}
+
   }
   p {
     font-family:'Oxygen', sans-serif;
