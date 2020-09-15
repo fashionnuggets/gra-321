@@ -1,12 +1,9 @@
 body {
   background-color: pink;}
 
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
-  </style>
 
   button {
-    background-color:#14A171;
+    background-color:black;
     border: none;
     color:white;
     font-family:Arial, sans-serif;
