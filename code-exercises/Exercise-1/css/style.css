@@ -12,13 +12,16 @@ body {
     text-transform: uppercase;
     padding: 1em 2em 1em 2em;
   }
+
+    a:link { color: white; text-decoration: none; }
+
+    a:visited { color: HoneyDew; text-decoration: none; }
+
+    a:active { color: LavenderBlush; text-decoration: none; }
+
+    a:hover { color: LightCyan; text-decoration: none; }
+
+  }
   p {
     font-family:'Oxygen', sans-serif;
   }
-  a:link { color: white; text-decoration: none; }
-
-  a:visited { color: HoneyDew; text-decoration: none; }
-
-  a:active { color: LavenderBlush; text-decoration: none; }
-
-  a:hover { color: LightCyan; text-decoration: none; }
