@@ -1,7 +1,35 @@
-* {
+ody {
+  background-color: pink;}
 
-}
+  <!--EEDEFF-->
 
-h1 {
 
-}
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+</style>
+
+h3 h1 {
+ text-align: left;
+ font-family:'EB Garamond', serif;}
+
+ h1 {
+ text-align: left;
+ font-family: 'EB Garamond', serif;}
+
+
+ a:link { color: black; text-decoration: none; }
+
+ a:visited { color: #330099; text-decoration: none; }
+
+ a:active { color: #33CCCC; text-decoration: none; }
+
+ a:hover { color: #FF6699; text-decoration: none; }
+
+ button {
+   background-color:#14A171;
+   border: none;
+   color:white;
+   font-family:Arial, sans-serif;
+   text-transform: uppercase;
+   padding: 1em 2em 1em 2em;
+ }
