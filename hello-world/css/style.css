@@ -1,13 +1,13 @@
-/*---Oxygen Font Import ---*/
+/*---Garamond Font Import ---*/
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Oxygen&display=swap');
 
 body {
   background-color: MistyRose;}
 
 h1{
-  font-family: 'Oxygen', Arial, sans-serif;
+  font-family: 'EB Garamond', serif;
 }
 
 h2{
-  font-family: 'Oxygen', Arial, sans-serif;
+  font-family: 'EB Garamond', serif;
 }
