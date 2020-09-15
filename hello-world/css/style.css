@@ -4,10 +4,17 @@
 body {
   background-color: MistyRose;}
 
-h1{
+h1 {
   font-family: 'EB Garamond', serif;
 }
 
-h2{
-  font-family: 'EB Garamond', serif;
+h2 {
+  font-family: 'Oxygen', Arial, sans-serif;
+}
+
+ul {
+  font-family: 'Oxygen', Arial, sans-serif;
+}
+
+li { font-family: 'Oxygen', Arial, sans-serif;
 }
