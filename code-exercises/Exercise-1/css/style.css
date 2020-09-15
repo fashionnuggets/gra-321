@@ -1,3 +1,6 @@
+/*---Oxygen Font Import ---*/
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Oxygen&display=swap');
+
 body {
   background-color: pink;}
 
@@ -5,7 +8,10 @@ body {
     background-color:black;
     border: none;
     color:white;
-    font-family:Arial, sans-serif;
+    font-family:'Oxygen', sans-serif;
     text-transform: uppercase;
     padding: 1em 2em 1em 2em;
+  }
+  p {
+    font-family:'Oxygen', sans-serif;
   }
