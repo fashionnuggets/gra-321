@@ -6,7 +6,7 @@ body {
 
 
   .container {
-    background-image: url(..img/photo-wave.jpeg);
+    background-image: url(../img/photo-wave.jpeg);
     background-size: cover;
     height:700px;
     margin: 0 auto;
