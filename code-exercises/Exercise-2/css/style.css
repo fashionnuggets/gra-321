@@ -15,14 +15,14 @@ body {
   }
 
   h1 {
-    font-family: 'EB Garamond', serif;
+    font-family: 'Oxygen', Arial, sans-serif;
 
   }
 
   h2 {
     color: #fff;
-    font-size:48px;
-    font-family: 'EB Garamond', serif;
+    font-size:60px;
+    font-family: 'Oxygen', Arial, sans-serif;
     position: relative;
     text-align: center;
 
