@@ -4,21 +4,7 @@
 body {
   background-color: MistyRose;}
 
-  button {
-    background-color:black;
-    border: none;
-    color:white;
-    font-family:'Oxygen', sans-serif;
-    text-transform: uppercase;
-    padding: 1em 2em 1em 2em;
-  }
 
-
-
-    button :hover {  background-color: SlateGray;
-}
-
-  }
   p {
     font-family:'Oxygen', sans-serif;
   }
@@ -34,6 +20,7 @@ body {
     background: black;
     color: white;
     border: 2px solid white;
+    font-family:'Oxygen', sans-serif;
     font-size: 20px;
     letter-spacing: 2px;
     padding: 25px 80px;
@@ -54,17 +41,3 @@ body {
       -moz-transition: all 0.4s;
       transition: all 0.4s;
   }
-
-  button.btn-2:after {
-    content: '';
-    position: absolute;
-    z-index: -1;
-    -webkit-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    transition: all 0.4s;
-    width: 100%;
-    height: 0;
-    top: 0;
-    left: 0;
-    background: #fff;
-}
