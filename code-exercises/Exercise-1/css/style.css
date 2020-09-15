@@ -13,15 +13,15 @@ body {
     padding: 1em 2em 1em 2em;
   }
 
-    a:link { color: white; text-decoration: none; }
+    button :link { color: white; text-decoration: none; }
 
-    a:visited { color: HoneyDew; text-decoration: none; }
+    button :visited { color: HoneyDew; text-decoration: none; }
 
-    a:active { color: LavenderBlush; text-decoration: none; }
+    button :active { color: LavenderBlush; text-decoration: none; }
 
-    a:hover { color: LightCyan; text-decoration: none; }
+    button :hover { color: LightCyan; text-decoration: none; }
 
-    a:hover {  background-color: SlateGray;
+    button :hover {  background-color: SlateGray;
 }
 
   }
