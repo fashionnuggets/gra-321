@@ -1,11 +1,13 @@
-body {
-  background-color: pink;}
 
+  /*---EB+Garamond & Oxygen Font Import ---*/
+  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Oxygen&display=swap');
 
+  body {
+    background-color: pink;}
 
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
-</style>
+a {
+  text-align: left;
+  font-family:'EB Garamond', serif;}
 
 h3 {
  text-align: left;
