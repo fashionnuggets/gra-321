@@ -1,20 +1,18 @@
 /*---Arimo & Roboto ---*/
 @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Roboto+Slab&display=swap');
 
-
 body {
   background-color: White;
 }
 
   .flexbox-container {
-      height: 1824px;
+      height: 910px;
       width: 1440px;
       display: flex;
       justify-content: center;
-      align-items: top;
   }
   .flexbox-item-1 {
-    height: 1636px;
+    height: 1780px;
     width: 346px;
     background-color: white;
 
@@ -28,26 +26,30 @@ body {
     margin-right: 26px;
     margin-left: 76px;
 
+
 }
 .flexbox-item-3 {
-  min-height: 1013px;
+  min-height: 613px;
   min-width: 932px;
   margin-bottom: 17px;
+
 }
 .flexbox-item-4 {
   min-height: 680px;
   min-width: 932px;
+
 }
 .flexbox-item-5 {
-  min-height: 24px;
+  min-height: 44px;
   min-width: 218px;
+  margin-top: 900px;
+
 }
   .container {
     background-image: url(../img/bowls.png);
     background-size: cover;
     margin: 10 auto;
     height:1013px;
-
     width:923px;
   }
   .container1 {
@@ -55,7 +57,7 @@ body {
     background-size: cover;
     height:680px;
     margin: 10 auto;
-    width:932px;
+    width:923px;
   }
 
   .inline-example {
@@ -107,7 +109,7 @@ font-kerning: -50pt auto;
 font-size: 11pt;
 color: #434343;
 margin-right: 40px;
-margin-left: 1125px;
+margin-left: 1130px;
 text-align: right;
 }
 
@@ -117,7 +119,3 @@ font-kerning: -50pt auto;
 font-size: 11pt;
 color: #434343;
 }
-.flexbox-container2 {
-      display: inline-flex;
-      justify-content: Right;
-      align-items: Right;
