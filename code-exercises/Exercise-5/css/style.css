@@ -52,10 +52,10 @@ body {
   }
 
 h1 { font-family:'Arimo', sans-serif;
-    line-height: -50pt;
+    line-height: -40pt;
     font-weight: 700;
-    font-size: 50pt;
-    font-kerning: -50pt auto;
+    font-size: 40pt;
+    font-kerning: -40pt auto;
     color: black;
     margin-top: 144px;
     margin-left: 60px;
@@ -66,9 +66,9 @@ h1 { font-family:'Arimo', sans-serif;
 
 h3 {
   font-family:'Roboto', serif;
-  font-size: 26pt;
-  line-height: 30.5pt;
-  font-kerning: 33pt;
+  font-size: 18pt;
+  line-height: 20.5pt;
+  font-kerning: 23pt;
   color: black;
   margin-left:60px;
   margin-right: 38px;
@@ -76,8 +76,8 @@ h3 {
 }
 p {font-family: 'Arimo',sans-serif;
 font-weight: 400;
-font-size: 18pt;
-font-kerning: -50pt auto;
+font-size: 8pt;
+font-kerning: -40pt auto;
 color: #434343;
 margin-left: 60px;
 margin-bottom: 84px;
