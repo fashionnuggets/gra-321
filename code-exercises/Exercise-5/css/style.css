@@ -1,0 +1,71 @@
+/*---Arimo & Roboto ---*/
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Roboto+Slab&display=swap');
+
+
+body {
+  background-color: white;}
+
+  .container {
+    background-image: url(../img/bowls.png);
+    background-size: cover;
+    height:1004px;
+    margin: 10 auto;
+    width:924px;
+  }
+  .container1 {
+    background-image: url(../img/knife-block.png);
+    background-size: cover;
+    height:676px;
+    margin: 10 auto;
+    width:932px;
+  }
+
+h1 { font-family:'Arimo', sans-serif;
+    line-height: -50pt;
+    font-weight: 700;
+    font-size: 50pt;
+    font-kerning: -50pt auto;
+    color: black;
+    margin-top: 144px;
+    margin-left: 60px;
+    margin-right: 144px;
+    margin-bottom: 26px;
+    align-self: : : left;
+  }
+
+h3 {
+  font-family:'Roboto', serif;
+  font-size: 26pt;
+  line-height: 30.5pt;
+  font-kerning: 33pt;
+  color: black;
+  margin-left:60px;
+  margin-right: 144px;
+  margin-bottom: 904px;
+}
+p {font-family: 'Arimo',sans-serif;
+font-weight: 400;
+font-size: 18pt;
+font-kerning: -50pt auto;
+color: #434343;
+margin-left: 60px;
+margin-right: 76px;
+margin-bottom: 84px;
+}
+p2 {font-family: 'Arimo',sans-serif;
+font-weight: 400;
+font-kerning: -50pt auto;
+font-size: 18pt;
+color: #434343;
+}
+ 
+.parent {
+  background-color:White;
+  display: flex;
+  height: 1864px;
+  width:1440px;
+  margin: 0 auto;
+  position:relative;
+  justify-content: space-between;
+  align-items:flex-start;
+}
