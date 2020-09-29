@@ -5,6 +5,18 @@
 body {
   background-color: white;}
 
+  .flexbox-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .flexbox-item {
+    height: 1636px;
+    width: 346px;
+    margin: 10px;
+    background-color: white;
+}
+
   .container {
     background-image: url(../img/bowls.png);
     background-size: cover;
@@ -59,13 +71,3 @@ font-size: 18pt;
 color: #434343;
 }
  
-.parent {
-  background-color:White;
-  display: flex;
-  height: 1864px;
-  width:1440px;
-  margin: 0 auto;
-  position:relative;
-  justify-content: space-between;
-  align-items:flex-start;
-}
