@@ -6,6 +6,8 @@ body {
   background-color: white;}
 
   .flexbox-container {
+      height: 1864px;
+      width: 1440px;
       display: flex;
       justify-content: center;
       align-items: top;
@@ -39,14 +41,14 @@ body {
   .container {
     background-image: url(../img/bowls.png);
     background-size: cover;
-    height:1004px;
+    height:1013px;
     margin: 10 auto;
-    width:924px;
+    width:923px;
   }
   .container1 {
     background-image: url(../img/knife-block.png);
     background-size: cover;
-    height:676px;
+    height:680px;
     margin: 10 auto;
     width:932px;
   }
@@ -76,7 +78,7 @@ h3 {
 }
 p {font-family: 'Arimo',sans-serif;
 font-weight: 400;
-font-size: 8pt;
+font-size: 11.73pt;
 font-kerning: -40pt auto;
 color: #434343;
 margin-left: 60px;
