@@ -1,0 +1,18 @@
+/*---EB+Garamond & Oxygen Font Import ---*/
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Oxygen:wght@400;700&display=swap');
+
+body {
+  background-color: MistyRose;}
+
+  .container {
+    background-image: url(../img/final.jpg);
+    background-size: cover;
+    height:1593px;
+    margin: 10 auto;
+    width:320px;
+  }
+
+  h1 {
+    font-family: 'EB Garamond', serif;
+
+  }
