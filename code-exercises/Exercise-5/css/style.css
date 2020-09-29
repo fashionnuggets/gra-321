@@ -8,15 +8,34 @@ body {
   .flexbox-container {
       display: flex;
       justify-content: center;
-      align-items: center;
+      align-items: top;
   }
-  .flexbox-item {
+  .flexbox-item-1 {
     height: 1636px;
     width: 346px;
-    margin: 10px;
     background-color: white;
-}
 
+}
+.flexbox-item-2 {
+    min-height: 1708px;
+    min-width: 932px;
+    align-self: right;
+    margin-top: 70px;
+    margin-right: 26px;
+    margin-left: 76px;
+    margin-bottom: 44px;
+}
+.flexbox-item-3 {
+  min-height: 1013px;
+  min-width: 932px;
+  margin-bottom: 17px;
+}
+.flexbox-item-4 {
+  min-height: 680px;
+  min-width: 932px;
+
+
+}
   .container {
     background-image: url(../img/bowls.png);
     background-size: cover;
@@ -40,7 +59,7 @@ h1 { font-family:'Arimo', sans-serif;
     color: black;
     margin-top: 144px;
     margin-left: 60px;
-    margin-right: 144px;
+    margin-right: 38px;
     margin-bottom: 26px;
     align-self: : : left;
   }
@@ -52,7 +71,7 @@ h3 {
   font-kerning: 33pt;
   color: black;
   margin-left:60px;
-  margin-right: 144px;
+  margin-right: 38px;
   margin-bottom: 904px;
 }
 p {font-family: 'Arimo',sans-serif;
@@ -61,7 +80,6 @@ font-size: 18pt;
 font-kerning: -50pt auto;
 color: #434343;
 margin-left: 60px;
-margin-right: 76px;
 margin-bottom: 84px;
 }
 p2 {font-family: 'Arimo',sans-serif;
