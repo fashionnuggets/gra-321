@@ -6,15 +6,19 @@ body {
 
 h1 {
   font-family: 'EB Garamond', serif;
+  margin-left: 40px;
 }
 
 h2 {
   font-family: 'Oxygen', Arial, sans-serif;
+  margin-left: 40px;
 }
 
 ul {
   font-family: 'Oxygen', Arial, sans-serif;
+  margin-left: 40px;
 }
 
 li { font-family: 'Oxygen', Arial, sans-serif;
+margin-left: 40px;
 }
