@@ -52,14 +52,14 @@ body {
   }
 
 h1 { font-family:'Arimo', sans-serif;
-    line-height: -40pt;
+    line-height: -30pt;
     font-weight: 700;
-    font-size: 40pt;
-    font-kerning: -40pt auto;
+    font-size: 30pt;
+    font-kerning: -30pt auto;
     color: black;
     margin-top: 144px;
     margin-left: 60px;
-    margin-right: 38px;
+
     margin-bottom: 26px;
     align-self: : : left;
   }
@@ -71,7 +71,6 @@ h3 {
   font-kerning: 23pt;
   color: black;
   margin-left:60px;
-  margin-right: 38px;
   margin-bottom: 904px;
 }
 p {font-family: 'Arimo',sans-serif;
