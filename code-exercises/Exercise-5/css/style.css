@@ -85,16 +85,17 @@ h1 { font-family:'Arimo', sans-serif;
 h3 {
   font-family:'Roboto', serif;
   font-size: 18pt;
-  line-height: 20.5pt;
+  line-height: 22.5pt;
   font-kerning: 23pt;
   color: black;
   margin-left:60px;
   margin-right: 10px;
-  margin-bottom: 904px;
+  margin-bottom: 900px;
 }
 p {font-family: 'Arimo',sans-serif;
 font-weight: 400;
-font-size: 11.73pt;
+font-size: 11pt;
+line-height: 18.5pt;
 font-kerning: -40pt auto;
 color: #434343;
 margin-left: 60px;
@@ -113,7 +114,7 @@ text-align: right;
 h5 {font-family: 'Arimo',sans-serif;
 font-weight: 400;
 font-kerning: -50pt auto;
-font-size: 11.73pt;
+font-size: 11pt;
 color: #434343;
 }
 .flexbox-container2 {
