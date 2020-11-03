@@ -1,6 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;1,300&display=swap');
+
 Body {
   background-color: #2C2C2C
 }
 
+h1{
+ text-align: center;
+ color: white;
+ font-family:'Nunito', serif;
+ font-size: 50pt;
+ font-weight: 700;}
+
 h1 {margin-left: px;
 }
+
+h2{
+ text-align: center;
+ color: white;
+ font-family:'Nunito', serif;
+ font-size: 36pt;
+ font-weight: 600;}
+
+ h3{
+   text-align: center;
+   color: white;
+   font-family:'Nunito', serif;
+   font-size: 36pt;
+   font-weight: 400;}
+
+
+  h4{
+   text-align: center;
+   color: white;
+   font-family:'Nunito', serif;
+   font-size: 36pt;
+   font-weight: 700;}
+
+
+   h5{
+    text-align: center;
+    color: white;
+    font-family:'Nunito', serif;
+    font-size: 24pt;
+    font-weight: 400;}
+
+    h6{
+     text-align: center;
+     color: white;
+     font-family:'Nunito', serif;
+     font-size: 24pt;
+     font-weight: 600;}
+
+     h7{
+      text-align: center;
+      color: black;
+      font-family:'Nunito', serif;
+      font-size: 26pt;
+      font-weight: 600;}
+
+      h8{
+       text-align: center;
+       color: black;
+       font-family:'Nunito', serif;
+       font-size: 16pt;
+       font-weight: 400;}
+
+     p{
+      text-align: center;
+      color: white;
+      font-family:'Nunito', serif;
+      font-size: 16pt;
+      font-style: italic;
+      font-weight: 300;}
+
+      p2{
+       text-align: center;
+       color: white;
+       font-family:'Nunito', serif;
+       font-size: 16pt;
+       font-weight: 400;}
+
+       p3{
+        text-align: center;
+        color: white;
+        font-family:'Nunito', serif;
+        font-size: 16pt;
+        font-weight: 400;}
+
+        p4{
+         text-align: center;
+         color: white;
+         font-family:'Nunito', serif;
+         font-size: 20pt;
+         font-weight: 400;}
+
+         p5{
+          text-align: center;
+          color: black;
+          font-family:'Nunito', serif;
+          font-size: 20pt;
+          font-style: italic;
+          font-weight: 300;}
+
+          p6{
+            text-align: center;
+            color: white;
+            font-family:'Nunito', serif;
+            font-size: 20pt;
+            font-weight: 400;}
+
+            p7{
+             text-align: center;
+             color: #747474;
+             font-family:'Nunito', serif;
+             font-size: 16pt;
+             font-style: italic;
+             font-weight: 300;}
+
+            .header-box {
+             background-color: #2C2C2C;
+             height:134px;
+             width:320px;
+             margin: 0 auto;
+             width:100%;}
+
+            .logo {
+              background-image: url(../img/logo.png);
+              background-size: cover;
+              height:148px;
+              width: 270px;
+              margin: 0 auto;
+              width:100%; }
+
+              .container1 {
+                background-image: url(../img/img1.png);
+                background-size: cover;
+                height:803px;
+                width:320px;
+                margin: 0 auto;
+                width:100%;}
+
+            .container2 {
+              background-image: url(../img/img2.jpg);
+              background-size: cover;
+              height:183px;
+              width:320px;
+              margin: 0 auto;
+              width:100%; }
+
+                .container3 {
+                  background-image: url(../img/img3.jpeg);
+                  background-size: cover;
+                  height:183px;
+                  width:320px;
+                  margin: 0 auto;
+                  width:100%;}
+
+                  .container4 {
+                    background-image: url(../img/img4.jpeg);
+                    background-size: cover;
+                    height:576px;
+                    width:320px;
+                    margin: 0 auto;
+                    width:100%;}
+
+                    .container5 {
+                      background-image: url(../img/img5.png);
+                      background-size: cover;
+                      height:183px;
+                      width:320px;
+                      margin: 0 auto;
+                      width:100%;}
+
+                      .box1 {
+                        background-color: #646464;
+                        height:600px;
+                        width:270px;
+                        margin: 0 auto;
+                        width:100%;}
+
+                      .box2 {
+                        background-color: #646464;
+                        height:176px;
+                        width:270px;
+                        margin: 0 auto;
+                        width:100%;}
+
+                        .box3 {
+                          background-color: #646464;
+                          height:541px;
+                          width:320px;
+                          margin: 0 auto;
+                          width:100%;}
+
+                           .box4 {
+                            background-color: #646464;
+                            height:320px;
+                            width:320px;
+                            margin: 0 auto;
+                            width:100%;}
+
+                            .box5 {
+                             background-color: white;
+                             height:524px;
+                             width:320px;
+                             margin: 0 auto;
+                             width:100%;}
+
+                            .box6-7-8 {
+                             background-color: #646464;
+                             height:263px;
+                             width:270px;
+                             margin: 0 auto;
+                             width:100%;}
+
+                             .box9 {
+                              background-color: #646464;
+                              height:587px;
+                              width:320px;
+                              margin: 0 auto;
+                              width:100%;}
+
+                              .box10-11-12 {
+                               background-color: white;
+                               outline-color: black;
+                               height:56px;
+                               width:270px;
+                               margin: 0 auto;
+                               width:100%;}
+
+                               .box13 {
+                                background-color: white;
+                                outline-color: black;
+                                height:238px;
+                                width:270px;
+                                margin: 0 auto;
+                                width:100%;}
+
+                                .button {
+                                 background-color: #797979;
+                                 height:61px;
+                                 width:270px;
+                                 margin: 0 auto;
+                                 width:100%;
+                                 text-align: center; }
+
+                                 .footer {
+                                  background-color: black;
+                                  height:185px;
+                                  width:320px;
+                                  margin: 0 auto;
+                                  width:100%;}
