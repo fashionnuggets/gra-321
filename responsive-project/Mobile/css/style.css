@@ -137,7 +137,16 @@ h2{
                 height:803px;
                 width:320px;
                 margin: 0 auto;
-                width:100%;}
+                width:100%;
+                max-height: 1077px;
+                max-width: 1440px;
+                min-height: 803px;
+                min-width: 1074px;
+                align-self: center;
+                margin-top: 0px;
+                margin-right: 0px;
+                margin-left: 0px;
+              }
 
             .container2 {
               background-image: url(../img/img2.jpg);
@@ -210,39 +219,23 @@ h2{
                              background-color: #646464;
                              height:263px;
                              width:270px;
-                             margin: 0 auto;
-                             width:100%;}
+                             margin-left: 25px;
+                             margin-right: 25px;
+                             margin-top: 46px;
+                             margin-bottom: 46px;
+                             width:100%;
+
+                           }
 
                              .box9 {
                               background-color: #646464;
                               height:587px;
                               width:320px;
                               margin: 0 auto;
-                              width:100%;}
+                              width:100%;
+                              }
 
-                              .box10-11-12 {
-                               background-color: white;
-                               outline-color: black;
-                               height:56px;
-                               width:270px;
-                               margin: 0 auto;
-                               width:100%;}
 
-                               .box13 {
-                                background-color: white;
-                                outline-color: black;
-                                height:238px;
-                                width:270px;
-                                margin: 0 auto;
-                                width:100%;}
-
-                                .button {
-                                 background-color: #797979;
-                                 height:61px;
-                                 width:270px;
-                                 margin: 0 auto;
-                                 width:100%;
-                                 text-align: center; }
 
                                  .footer {
                                   background-color: black;
@@ -310,6 +303,50 @@ ul.menu-items a {
   display:none;
 }
 
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: black;
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=send] {
+  background-color: #797979;
+  text-align: center;
+  color: white;
+  padding: 22px 19px;
+  border: none;
+  cursor: pointer;
+   width:100%;
+
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=send]:hover {
+  background-color: black;
+}
+
+/* Add a background color and some padding around the form */
+.container-contact
+{  background-color: #414141;
+  padding-left: 44px;
+  padding-right: 44px;
+  padding-top: 34px;
+  padding-bottom: 34px;
+  width: 100%;
+  align-items: center;
+}
+.container-contact2
+{padding-left: 0px;
+padding-right: 0px;
+padding-top: 53px;
+padding-bottom: 159px;}
+
 /*Desktop Styles*/
 @media only screen and (min-width: 500px) {
   .header-nav {
@@ -350,3 +387,49 @@ border-top:none;
   width: 60%;
   justify-content: space-between;
 }
+
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: black;
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=send] {
+  background-color: #797979;
+  text-align: center;
+  color: white;
+  padding: 22px 19px;
+  border: none;
+  cursor: pointer;
+   width:100%;
+
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=send]:hover {
+  background-color: black;
+}
+
+/* Add a background color and some padding around the form */
+.container-contact
+{  background-color: #414141;
+  padding-left: 44px;
+  padding-right: 44px;
+  padding-top: 34px;
+  padding-bottom: 34px;
+  width: 708px;
+  align-items: center;
+}
+.container-contact2
+{padding-left: 366px;
+padding-right: 366px;
+padding-top: 53px;
+padding-bottom: 159px;}
