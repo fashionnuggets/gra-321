@@ -177,7 +177,9 @@ h2{
                       background-size: cover;
                       height:183px;
                       width:320px;
-                      margin: 0 auto;
+                      margin-top: 137px;
+                      margin-bottom: 84px ;
+                      opacity: 60%;
                       width:100%;}
 
                       .box1 {
@@ -212,8 +214,27 @@ h2{
                              background-color: white;
                              height:524px;
                              width:320px;
-                             margin: 0 auto;
-                             width:100%;}
+                             padding-top: 64px;
+                             padding-bottom: 64px;
+                             padding-left: 51px;
+                             padding-right: 51px;
+                             margin-bottom: 64px;
+                             width:100%;
+
+                           }
+
+                             .ourstory {
+
+
+                               text-align: center;
+                             }
+
+                                  .storytext {
+                                    text-align: center;
+
+
+                                  }
+
 
                             .box6-7-8 {
                              background-color: #646464;
@@ -224,6 +245,14 @@ h2{
                              margin-top: 46px;
                              margin-bottom: 46px;
                              width:100%;
+
+                           }
+
+                           .location-text {
+                             text-align: center;
+                             text-align: middle;
+                             padding: 32px;
+
 
                            }
 
