@@ -14,7 +14,7 @@ line-height: normal;
 }
 
 h2{
- text-align: center;
+
  color: white;
  font-family:'Nunito', serif;
  font-size: 36pt;
@@ -45,7 +45,7 @@ h2{
 
     h6{
      text-align: center;
-     color: white;
+
      font-family:'Nunito', serif;
      font-size: 24pt;
      font-weight: 600;}
@@ -156,6 +156,17 @@ h2{
               margin: 0 auto;
               width:100%; }
 
+              .h2-items {
+                margin-left: 27px;
+
+              }
+
+              .s-m-l {
+                block: inline;
+                color: #717171;
+                padding: 46px 42px 38px 57px
+              }
+
                 .container3 {
                   background-image: url(../img/img3.jpeg);
                   background-size: cover;
@@ -249,6 +260,7 @@ h2{
                            }
 
                            .location-text {
+                             color: white;
                              text-align: center;
                              text-align: middle;
                              padding: 32px;
@@ -270,11 +282,28 @@ h2{
                                   background-color: black;
                                   height:185px;
                                   width:320px;
+
+
                                   margin: 0 auto;
                                   width:100%;}
 
+                                  .footer1 {
 
+                                  margin-left: 27px;
+                                  margin-right: 27px;
+                                  margin-top: 36px;
+                                  margin-bottom: 28px;
+                                  text-align: center;
+                                }
 
+                                .footer2 {
+
+                                margin-left: 27px;
+                                margin-right: 27px;
+                                margin-top: 28px;
+                                margin-bottom: 36px;
+                                text-align: center;
+                              }
 header {
 background-color: #2C2C2C;
 width: 100%;
@@ -288,6 +317,9 @@ width: 100%;
 
 .nav-bar {
   display:flex;
+  color: white;
+  border: white;
+  border-radius: 4px;
   align-items: left;
   width: 100%;
   margin: 0 auto;
@@ -316,11 +348,12 @@ padding: 46px 0 61px 0;
 margin: 0;
 list-style-type: none;
 text-align: center;
-border-top:3px double #000;
+
 
 }
 
 ul.menu-items a {
+  padding: 60px 0 68px 0;
   text-decoration: underline;
 
   text-align: center;
