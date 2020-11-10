@@ -9,7 +9,9 @@ h1{
  color: white;
  font-family:'Nunito', serif;
  font-size: 50pt;
- font-weight: 700;}
+ font-weight: 700;
+line-height: normal;
+}
 
 h2{
  text-align: center;
@@ -248,3 +250,103 @@ h2{
                                   width:320px;
                                   margin: 0 auto;
                                   width:100%;}
+
+
+
+header {
+background-color: #2C2C2C;
+width: 100%;
+}
+
+.header-nav {
+  background-color: #2C2C2C;
+  width:90%;
+  margin: 0 auto;
+}
+
+.nav-bar {
+  display:flex;
+  align-items: left;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  justify-content: space-between;
+  padding: 30px 0 30px 0;
+}
+
+#logo {
+height:148px;
+width:270px;
+}
+
+#toggle {
+display:none;
+}
+
+label {
+font-size: 40px;
+line-height:100px;
+ cursor: pointer;
+}
+
+ul.menu-items {
+padding: 46px 0 61px 0;
+margin: 0;
+list-style-type: none;
+text-align: center;
+border-top:3px double #000;
+
+}
+
+ul.menu-items a {
+  text-decoration: underline;
+
+  text-align: center;
+  color: white;
+  display:block;
+}
+
+#toggle:checked ~ ul.menu-items {
+  display:none;
+}
+
+/*Desktop Styles*/
+@media only screen and (min-width: 500px) {
+  .header-nav {
+  background-color: #2C2C2C;
+  width:90%;
+  margin: 0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-bar {
+  display:inline-block;
+  position: relative;
+  padding: 30px 0 30px 0;
+  width:60%;
+}
+
+#logo {
+height:389px;
+width:706px;
+}
+
+#toggle {
+display:none;
+}
+
+label {
+display:none;
+}
+
+ul.menu-items, #toggle:checked ~ ul.menu-items {
+display: flex;
+margin: 0;
+list-style-type: none;
+text-align: center;
+border-top:none;
+  width: 60%;
+  justify-content: space-between;
+}
