@@ -293,6 +293,7 @@ h2{
                                   margin-right: 27px;
                                   margin-top: 36px;
                                   margin-bottom: 28px;
+                                  padding-top: 20px;
                                   text-align: center;
                                 }
 
@@ -353,9 +354,8 @@ text-align: center;
 }
 
 ul.menu-items a {
-  padding: 60px 0 68px 0;
-  text-decoration: underline;
-
+  padding: 60px 0 10px 0;
+  border-bottom: 1px solid #707070;
   text-align: center;
   color: white;
   display:block;
@@ -407,7 +407,8 @@ input[type=send]:hover {
 {padding-left: 0px;
 padding-right: 0px;
 padding-top: 53px;
-padding-bottom: 159px;}
+padding-bottom: 159px;
+  width: 100%;}
 
 /*Desktop Styles*/
 @media only screen and (min-width: 500px) {
@@ -488,6 +489,7 @@ input[type=send]:hover {
   padding-top: 34px;
   padding-bottom: 34px;
   width: 708px;
+    width: 100%;
   align-items: center;
 }
 .container-contact2
@@ -495,3 +497,10 @@ input[type=send]:hover {
 padding-right: 366px;
 padding-top: 53px;
 padding-bottom: 159px;}
+
+.footer {
+ background-color: black;
+ height:78px;
+ width:1440px;
+ margin: 0 auto;
+ width:100%;}
