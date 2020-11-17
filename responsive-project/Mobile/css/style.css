@@ -1,333 +1,186 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;1,300&display=swap');
 
 Body {
-  background-color: #2C2C2C
+background-color: #2C2C2C
 }
 
 h1{
- text-align: center;
- color: white;
- font-family:'Nunito', serif;
- font-size: 50pt;
- font-weight: 700;
+text-align: center;
+color: white;
+font-family:'Nunito', serif;
+font-size: 50pt;
+font-weight: 700;
 line-height: normal;
 }
 
 h2{
 
- color: white;
- font-family:'Nunito', serif;
- font-size: 36pt;
- font-weight: 600;}
+color: white;
+font-family:'Nunito', serif;
+font-size: 36pt;
+font-weight: 600;}
 
- h3{
-   text-align: center;
-   color: white;
-   font-family:'Nunito', serif;
-   font-size: 36pt;
-   font-weight: 400;}
-
-
-  h4{
-   text-align: center;
-   color: white;
-   font-family:'Nunito', serif;
-   font-size: 36pt;
-   font-weight: 700;}
+h3{
+text-align: center;
+color: white;
+font-family:'Nunito', serif;
+font-size: 36pt;
+font-weight: 400;}
 
 
-   h5{
-    text-align: center;
-    color: white;
-    font-family:'Nunito', serif;
-    font-size: 24pt;
-    font-weight: 400;}
-
-    h6{
-     text-align: center;
-
-     font-family:'Nunito', serif;
-     font-size: 24pt;
-     font-weight: 600;}
-
-     h7{
-      text-align: center;
-      color: black;
-      font-family:'Nunito', serif;
-      font-size: 26pt;
-      font-weight: 600;}
-
-      h8{
-       text-align: center;
-       color: black;
-       font-family:'Nunito', serif;
-       font-size: 16pt;
-       font-weight: 400;}
-
-     p{
-      text-align: center;
-      color: white;
-      font-family:'Nunito', serif;
-      font-size: 16pt;
-      font-style: italic;
-      font-weight: 300;}
-
-      p2{
-       text-align: center;
-       color: white;
-       font-family:'Nunito', serif;
-       font-size: 16pt;
-       font-weight: 400;}
-
-       p3{
-        text-align: center;
-        color: white;
-        font-family:'Nunito', serif;
-        font-size: 16pt;
-        font-weight: 400;}
-
-        p4{
-         text-align: center;
-         color: white;
-         font-family:'Nunito', serif;
-         font-size: 20pt;
-         font-weight: 400;}
-
-         p5{
-          text-align: center;
-          color: black;
-          font-family:'Nunito', serif;
-          font-size: 20pt;
-          font-style: italic;
-          font-weight: 300;}
-
-          p6{
-            text-align: center;
-            color: white;
-            font-family:'Nunito', serif;
-            font-size: 20pt;
-            font-weight: 400;}
-
-            p7{
-             text-align: center;
-             color: #747474;
-             font-family:'Nunito', serif;
-             font-size: 16pt;
-             font-style: italic;
-             font-weight: 300;}
-
-            .header-box {
-             background-color: #2C2C2C;
-             height:134px;
-             width:320px;
-             margin: 0 auto;
-             width:100%;}
-
-            .logo {
-              background-image: url(../img/logo.png);
-              background-size: cover;
-              height:148px;
-              width: 270px;
-              margin: 0 auto;
-              width:100%; }
-
-              .container1 {
-                background-image: url(../img/img1.png);
-                background-size: cover;
-                height:803px;
-                width:320px;
-                margin: 0 auto;
-                width:100%;
-                max-height: 1077px;
-                max-width: 1440px;
-                min-height: 803px;
-                min-width: 1074px;
-                align-self: center;
-                margin-top: 0px;
-                margin-right: 0px;
-                margin-left: 0px;
-              }
-
-            .container2 {
-              background-image: url(../img/img2.jpg);
-              background-size: cover;
-              height:183px;
-              width:320px;
-              margin: 0 auto;
-              width:100%; }
-
-              .h2-items {
-                margin-left: 27px;
-
-              }
-
-              .s-m-l {
-                block: inline;
-                color: #717171;
-                padding: 46px 42px 38px 57px
-              }
-
-                .container3 {
-                  background-image: url(../img/img3.jpeg);
-                  background-size: cover;
-                  height:183px;
-                  width:320px;
-                  margin: 0 auto;
-                  width:100%;}
-
-                  .container4 {
-                    background-image: url(../img/img4.jpeg);
-                    background-size: cover;
-                    height:576px;
-                    width:320px;
-                    margin: 0 auto;
-                    width:100%;}
-
-                    .container5 {
-                      background-image: url(../img/img5.png);
-                      background-size: cover;
-                      height:183px;
-                      width:320px;
-                      margin-top: 137px;
-                      margin-bottom: 84px ;
-                      opacity: 60%;
-                      width:100%;}
-
-                      .box1 {
-                        background-color: #646464;
-                        height:600px;
-                        width:270px;
-                        margin: 0 auto;
-                        width:100%;}
-
-                      .box2 {
-                        background-color: #646464;
-                        height:176px;
-                        width:270px;
-                        margin: 0 auto;
-                        width:100%;}
-
-                        .box3 {
-                          background-color: #646464;
-                          height:541px;
-                          width:320px;
-                          margin: 0 auto;
-                          width:100%;}
-
-                           .box4 {
-                            background-color: #646464;
-                            height:320px;
-                            width:320px;
-                            margin: 0 auto;
-                            width:100%;}
-
-                            .box5 {
-                             background-color: white;
-                             height:524px;
-                             width:320px;
-                             padding-top: 64px;
-                             padding-bottom: 64px;
-                             padding-left: 51px;
-                             padding-right: 51px;
-                             margin-bottom: 64px;
-                             width:100%;
-
-                           }
-
-                             .ourstory {
+h4{
+text-align: center;
+color: white;
+font-family:'Nunito', serif;
+font-size: 36pt;
+font-weight: 700;}
 
 
-                               text-align: center;
-                             }
+h5{
+text-align: left;
+color: white;
+font-family:'Nunito', serif;
+font-size: 24pt;
+font-weight: 400;}
 
-                                  .storytext {
-                                    text-align: center;
+h6{
+color: white;
+font-family:'Nunito', serif;
+font-size: 24pt;
+font-weight: 600;}
+
+h7{
+text-align: center;
+color: black;
+font-family:'Nunito', serif;
+font-size: 26pt;
+font-weight: 600;}
+
+h8{
+text-align: center;
+color: black;
+font-family:'Nunito', serif;
+font-size: 16pt;
+font-weight: 400;}
 
 
-                                  }
+p{
+text-align: center;
+color: white;
+font-family:'Nunito', serif;
+font-size: 16pt;
+font-style: italic;
+font-weight: 300;}
+
+p2{
+text-align: center;
+color: white;
+font-family:'Nunito', serif;
+font-size: 16pt;
+font-weight: 400;
+}
 
 
-                            .box6-7-8 {
-                             background-color: #646464;
-                             height:263px;
-                             width:270px;
-                             margin-left: 25px;
-                             margin-right: 25px;
-                             margin-top: 46px;
-                             margin-bottom: 46px;
-                             width:100%;
+p4{
+text-align: center;
+color: white;
+font-family:'Nunito', serif;
+font-size: 20pt;
+font-weight: 400;}
 
-                           }
+p5{
+text-align: center;
+color: black;
+font-family:'Nunito', serif;
+font-size: 16pt;
+font-style: italic;
+font-weight: 300;}
 
-                           .location-text {
-                             color: white;
-                             text-align: center;
-                             text-align: middle;
-                             padding: 32px;
+p6{
+text-align: center;
+color: white;
+font-family:'Nunito', serif;
+font-size: 20pt;
+font-weight: 400;}
 
+p7{
+text-align: center;
+color: #747474;
+font-family:'Nunito', serif;
+font-size: 16pt;
+font-style: italic;
+font-weight: 300;}
 
-                           }
+p8{
+text-align: center;
+color: white;
+font-family:'Nunito', serif;
+font-size: 24pt;
+font-weight: 700;}
 
-                             .box9 {
-                              background-color: #646464;
-                              height:587px;
-                              width:320px;
-                              margin: 0 auto;
-                              width:100%;
-                              }
+p9{
+text-align: center;
+color: #717171;
+font-family:'Nunito', serif;
+font-size: 24pt;
+font-weight: 600;}
 
 
 
-                                 .footer {
-                                  background-color: black;
-                                  height:185px;
-                                  width:320px;
+.header-box {
+background-color: #2C2C2C;
+height:134px;
+width:320px;
+margin: 0 auto;
+width:100%;}
 
 
-                                  margin: 0 auto;
-                                  width:100%;}
-
-                                  .footer1 {
-
-                                  margin-left: 27px;
-                                  margin-right: 27px;
-                                  margin-top: 36px;
-                                  margin-bottom: 28px;
-                                  padding-top: 20px;
-                                  text-align: center;
-                                }
-
-                                .footer2 {
-
-                                margin-left: 27px;
-                                margin-right: 27px;
-                                margin-top: 28px;
-                                margin-bottom: 36px;
-                                text-align: center;
-                              }
-header {
+.header {
 background-color: #2C2C2C;
 width: 100%;
 }
 
 .header-nav {
-  background-color: #2C2C2C;
-  width:90%;
-  margin: 0 auto;
+background-color:rgba(44, 44, 44, 65);
+height:134px ;
+width:100%;
+margin: 0 auto;
+display:flex;
 }
 
+
+
 .nav-bar {
-  display:flex;
-  color: white;
-  border: white;
-  border-radius: 4px;
-  align-items: left;
-  width: 100%;
-  margin: 0 auto;
-  position: relative;
-  justify-content: space-between;
-  padding: 30px 0 30px 0;
+display:flex;
+color: white;
+
+border-radius: 4px;
+align-items: left;
+width: 100%;
+margin: 0 auto;
+position: relative;
+justify-content: space-between;
+padding: 30px 0 30px 0;
 }
+
+.social{
+background-color: #2C2C2C ;
+width: 50%;
+position: right;
+display:flex;
+justify-content: space-between;
+}
+#social-icon {
+height:25px;}
+
+.logo {
+background-image: url(../img/logo.png);
+background-size: cover;
+height:148px;
+width: 270px;
+margin: 0 auto;
+width:100%; }
+
 
 #logo {
 height:148px;
@@ -341,7 +194,7 @@ display:none;
 label {
 font-size: 40px;
 line-height:100px;
- cursor: pointer;
+cursor: pointer;
 }
 
 ul.menu-items {
@@ -354,84 +207,321 @@ text-align: center;
 }
 
 ul.menu-items a {
-  padding: 60px 0 10px 0;
-  border-bottom: 1px solid #707070;
-  text-align: center;
-  color: white;
-  display:block;
+padding: 60px 0 10px 0;
+border-bottom: 1px solid #707070;
+text-align: center;
+color: white;
+display:block;
+}
+
+ul.menu-items a:hover {
+text-decoration: none;
 }
 
 #toggle:checked ~ ul.menu-items {
-  display:none;
+display:none;
 }
+
+.container1 {
+background-image: url(../img/img1.png);
+background-size: cover;
+margin: 0 auto;
+height: 803px;
+width: 1074px;
+align-self: center;
+margin-top: 0px;
+margin-right: 0px;
+margin-left: 0px;
+
+background-position: center center;
+
+display:flex;
+align-items: center;
+}
+
+
+.banner-image {
+background-image: url("https://fashionnuggets.github.io/img/img1.png");
+background-size: cover;
+padding: 50px 80px; /*adjust as needed*/
+margin: 0 auto;
+background-repeat; no-repeat
+background-position: center center;
+width: 270px;
+height: 148px;
+display:flex;
+align-items: center;
+}
+
+
+.container2 {
+background-image: url(../img/img2.jpg);
+background-position: center;
+background-size: cover;
+height:183px;
+width:320px;
+margin: 0 auto;
+width:100%;
+background-position: center center;
+background-repeat; no-repeat
+}
+
+.h2-items {
+margin-left: 27px;
+margin-right: 27px;
+
+}
+
+.s-m-l {
+block: inline;
+color: #717171;
+padding: 46px 42px 38px 57px
+}
+
+.container3 {
+background-image: url(../img/img3.jpeg);
+background-position: center;
+background-size: cover;
+height:183px;
+width: 320px;
+margin: 0 auto;
+width:100%;
+background-position: center center;
+background-repeat; no-repeat
+}
+
+.container4 {
+background-image: url(../img/img4.jpeg);
+background-size: cover;
+height:576px;
+width:320px;
+margin: 0 auto;
+width:100%;}
+
+.container5 {
+background-image: url(../img/img5.png);
+background-size: cover;
+height:183px;
+width:320px;
+margin-top: 137px;
+margin-bottom: 84px ;
+opacity: 60%;
+width:100%;}
+
+.box1 {
+background-color: #646464;
+height:600px;
+
+margin-left: 27px;
+margin-right: 27px;
+
+}
+
+.box2 {
+background-color: #646464;
+height:176px;
+margin-left: 27px;
+margin-right: 27px;
+}
+
+.box3 {
+background-color: #646464;
+height:541px;
+margin-bottom: 46px ;
+margin-top: 46px ;
+width:100%;}
+
+.box4 {
+background-color: #646464;
+background-position: center;
+background-size: cover;
+height:320px;
+width: 320px;
+margin-bottom: 46px ;
+margin-top: 46px ;
+margin-left: 0px;
+margin-right: 0px;
+
+width:100%;
+background-position: center center;
+background-repeat; no-repeat}
+
+.box5 {
+background-color: white;
+height:524px;
+width:320px;
+padding-top: 64px;
+padding-bottom: 64px;
+padding-left: 51px;
+padding-right: 51px;
+margin-bottom: 64px;
+width:100%;
+
+}
+
+.ourstory {
+
+
+text-align: center;
+}
+
+.storytext {
+text-align: center;
+
+
+}
+
+
+.box6-7-8 {
+background-color: #646464;
+height:263px;
+margin-left: 27px;
+margin-right: 27px;
+}
+}
+
+.location-text {
+color: white;
+text-align: center;
+text-align: middle;
+padding: 32px;
+
+
+}
+
+.box9 {
+background-color: #646464;
+height:587px;
+width:320px;
+margin: 0 auto;
+width:100%;
+}
+
+
+
+.footer {
+background-color: black;
+height:185px;
+width:320px;
+width:100%;
+margin: none;
+
+}
+
+.footer1 {
+
+margin-left: 27px;
+margin-right: 27px;
+margin-top: 36px;
+margin-bottom: 28px;
+padding-top: 20px;
+text-align: center;
+}
+
+.footer2 {
+
+margin-left: 27px;
+margin-right: 27px;
+margin-top: 28px;
+margin-bottom: 36px;
+text-align: center;
+}
+
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */
-  border: black;
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+width: 100%; /* Full width */
+padding: 12px; /* Some padding */
+border: black;
+box-sizing: border-box; /* Make sure that padding and width stays in place */
+margin-top: 6px; /* Add a top margin */
+margin-bottom: 16px; /* Bottom margin */
+resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 /* Style the submit button with a specific background color etc */
 input[type=send] {
-  background-color: #797979;
-  text-align: center;
-  color: white;
-  padding: 22px 19px;
-  border: none;
-  cursor: pointer;
-   width:100%;
+background-color: #797979;
+text-align: center;
+color: white;
+padding: 22px 19px;
+border: none;
+cursor: pointer;
+width:100%;
 
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=send]:hover {
-  background-color: black;
+background-color: black;
 }
 
 /* Add a background color and some padding around the form */
 .container-contact
 {  background-color: #414141;
-  padding-left: 44px;
-  padding-right: 44px;
-  padding-top: 34px;
-  padding-bottom: 34px;
-  width: 100%;
-  align-items: center;
+padding-left: 44px;
+padding-right: 44px;
+padding-top: 34px;
+padding-bottom: 34px;
+width: 100%;
+align-items: center;
 }
 .container-contact2
 {padding-left: 0px;
 padding-right: 0px;
 padding-top: 53px;
 padding-bottom: 159px;
-  width: 100%;}
+width: 100%;}
 
 /*Desktop Styles*/
 @media only screen and (min-width: 500px) {
-  .header-nav {
-  background-color: #2C2C2C;
-  width:90%;
-  margin: 0 auto;
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
+
+
+.container4 {
+background-image: url(../img/img4.jpeg);
+background-size: cover;
+background-position: left left ;
+background-repeat: no-repeat;
+height:976px;
+
+width:100%;}
+
+
+.header {
+background-color: #2C2C2C;
+width: 100%;
 }
 
-.nav-bar {
-  display:inline-block;
-  position: relative;
-  padding: 30px 0 30px 0;
-  width:60%;
+.header-nav {
+background-color:rgba(44, 44, 44, 65);
+height:134px ;
+width:100%;
+margin: 0 auto;
+
 }
+
+
+
+.nav-bar {
+display:flex;
+color: white;
+border: white;
+border-radius: 4px;
+align-items: left;
+width: 100%;
+margin: 0 auto;
+position: relative;
+justify-content: space-between;
+padding: 30px 0 30px 0;
+
+
+
 
 #logo {
 height:389px;
 width:706px;
 }
+
 
 #toggle {
 display:none;
@@ -447,50 +537,50 @@ margin: 0;
 list-style-type: none;
 text-align: center;
 border-top:none;
-  width: 60%;
-  justify-content: space-between;
+width: 60%;
+justify-content: space-between;
 }
 
 
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */
-  border: black;
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+width: 100%; /* Full width */
+padding: 12px; /* Some padding */
+border: black;
+box-sizing: border-box; /* Make sure that padding and width stays in place */
+margin-top: 6px; /* Add a top margin */
+margin-bottom: 16px; /* Bottom margin */
+resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 /* Style the submit button with a specific background color etc */
 input[type=send] {
-  background-color: #797979;
-  text-align: center;
-  color: white;
-  padding: 22px 19px;
-  border: none;
-  cursor: pointer;
-   width:100%;
+background-color: #797979;
+text-align: center;
+color: white;
+padding: 22px 19px;
+border: none;
+cursor: pointer;
+width:100%;
 
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=send]:hover {
-  background-color: black;
+background-color: black;
 }
 
 /* Add a background color and some padding around the form */
 .container-contact
 {  background-color: #414141;
-  padding-left: 44px;
-  padding-right: 44px;
-  padding-top: 34px;
-  padding-bottom: 34px;
-  width: 708px;
-    width: 100%;
-  align-items: center;
+padding-left: 44px;
+padding-right: 44px;
+padding-top: 34px;
+padding-bottom: 34px;
+width: 708px;
+width: 100%;
+align-items: center;
 }
 .container-contact2
 {padding-left: 366px;
@@ -499,8 +589,8 @@ padding-top: 53px;
 padding-bottom: 159px;}
 
 .footer {
- background-color: black;
- height:78px;
- width:1440px;
- margin: 0 auto;
- width:100%;}
+background-color: black;
+height:78px;
+width:1440px;
+margin: 0 auto;
+width:100%;}
