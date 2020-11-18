@@ -125,7 +125,7 @@ font-family:'Nunito', serif;
 font-size: 24pt;
 font-weight: 600;}
 
-
+/* start HEADER STUFF - MOBILE */
 
 .header-box {
 background-color: #2C2C2C;
@@ -252,6 +252,8 @@ height: 148px;
 display:flex;
 align-items: center;
 }
+
+/* end HEADER STUFF - MOBILE */
 
 
 .container2 {
@@ -473,124 +475,125 @@ padding-top: 53px;
 padding-bottom: 159px;
 width: 100%;}
 
-/*Desktop Styles*/
-@media only screen and (min-width: 500px) {
-
-
-.container4 {
-background-image: url(../img/img4.jpeg);
-background-size: cover;
-background-position: left left ;
-background-repeat: no-repeat;
-height:976px;
-
-width:100%;}
-
-
-.header {
-background-color: #2C2C2C;
-width: 100%;
-}
-
-.header-nav {
-background-color:rgba(44, 44, 44, 65);
-height:134px ;
-width:100%;
-margin: 0 auto;
-
-}
 
 
 
-.nav-bar {
-display:flex;
-color: white;
-border: white;
-border-radius: 4px;
-align-items: left;
-width: 100%;
-margin: 0 auto;
-position: relative;
-justify-content: space-between;
-padding: 30px 0 30px 0;
+                    /*Desktop Styles*/
+                    @media only screen and (min-width: 500px) {
+
+                    /* start HEADER STUFF - DESKTOP */
+
+                    .header {
+                    background-color: #2C2C2C;
+                    width: 100%;
+                    }
+
+                    .header-nav {
+                    background-color:rgba(44, 44, 44, 65);
+                    height:134px ;
+                    width:100%;
+                    margin: 0 auto;
+                    }
+
+                    .nav-bar {
+                    display:flex;
+                    color: white;
+                    border: white;
+                    border-radius: 4px;
+                    align-items: left;
+                    width: 100%;
+                    margin: 0 auto;
+                    position: relative;
+                    justify-content: space-between;
+                    padding: 30px 0 30px 0;
+                  }
+
+                    #logo {
+                    height:389px;
+                    width:706px;
+                    }
+
+                    #toggle {
+                    display:none;
+                    }
+
+                    label {
+                    display:none;
+                    }
+
+                    ul.menu-items, #toggle:checked ~ ul.menu-items {
+                    display: flex;
+                    margin: 0;
+                    list-style-type: none;
+                    text-align: center;
+                    border-top:none;
+                    width: 60%;
+                    justify-content: space-between;
+                    }
+
+                    /* end HEADER STUFF - DESKTOP */
 
 
 
 
-#logo {
-height:389px;
-width:706px;
-}
 
+                    .container4 {
+                    background-image: url(../img/img4.jpeg);
+                    background-size: cover;
+                    background-position: left left ;
+                    background-repeat: no-repeat;
+                    height:976px;
+                    width:100%;
+                  }
 
-#toggle {
-display:none;
-}
+                    /* Style inputs with type="text", select elements and textareas */
+                    input[type=text], select, textarea {
+                    width: 100%; /* Full width */
+                    padding: 12px; /* Some padding */
+                    border: black;
+                    box-sizing: border-box; /* Make sure that padding and width stays in place */
+                    margin-top: 6px; /* Add a top margin */
+                    margin-bottom: 16px; /* Bottom margin */
+                    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+                    }
 
-label {
-display:none;
-}
+                    /* Style the submit button with a specific background color etc */
+                    input[type=send] {
+                    background-color: #797979;
+                    text-align: center;
+                    color: white;
+                    padding: 22px 19px;
+                    border: none;
+                    cursor: pointer;
+                    width:100%;
 
-ul.menu-items, #toggle:checked ~ ul.menu-items {
-display: flex;
-margin: 0;
-list-style-type: none;
-text-align: center;
-border-top:none;
-width: 60%;
-justify-content: space-between;
-}
+                    }
 
+                    /* When moving the mouse over the submit button, add a darker green color */
+                    input[type=send]:hover {
+                    background-color: black;
+                    }
 
+                    /* Add a background color and some padding around the form */
+                    .container-contact
+                    {  background-color: #414141;
+                    padding-left: 44px;
+                    padding-right: 44px;
+                    padding-top: 34px;
+                    padding-bottom: 34px;
+                    width: 708px;
+                    width: 100%;
+                    align-items: center;
+                    }
+                    .container-contact2
+                    {padding-left: 366px;
+                    padding-right: 366px;
+                    padding-top: 53px;
+                    padding-bottom: 159px;}
 
-/* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-width: 100%; /* Full width */
-padding: 12px; /* Some padding */
-border: black;
-box-sizing: border-box; /* Make sure that padding and width stays in place */
-margin-top: 6px; /* Add a top margin */
-margin-bottom: 16px; /* Bottom margin */
-resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-}
-
-/* Style the submit button with a specific background color etc */
-input[type=send] {
-background-color: #797979;
-text-align: center;
-color: white;
-padding: 22px 19px;
-border: none;
-cursor: pointer;
-width:100%;
-
-}
-
-/* When moving the mouse over the submit button, add a darker green color */
-input[type=send]:hover {
-background-color: black;
-}
-
-/* Add a background color and some padding around the form */
-.container-contact
-{  background-color: #414141;
-padding-left: 44px;
-padding-right: 44px;
-padding-top: 34px;
-padding-bottom: 34px;
-width: 708px;
-width: 100%;
-align-items: center;
-}
-.container-contact2
-{padding-left: 366px;
-padding-right: 366px;
-padding-top: 53px;
-padding-bottom: 159px;}
-
-.footer {
-background-color: black;
-height:78px;
-width:1440px;
-margin: 0 auto;
-width:100%;}
+                    .footer {
+                    background-color: black;
+                    height:78px;
+                    width:1440px;
+                    margin: 0 auto;
+                    width:100%;}
