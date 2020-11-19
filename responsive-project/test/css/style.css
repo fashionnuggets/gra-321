@@ -132,10 +132,9 @@ font-weight: 600;}
   background-size: cover;
   background-position: center center;
   width: 100%;
-  height: 803px;
+  height: 500px;
   display:flex;
-  align-items: flex-start;
-  padding-top:150px;
+  align-items: center;
 }
 
 .lg-banner-image img {
@@ -146,10 +145,9 @@ font-weight: 600;}
 
 
 header {
-  background-color: rgba(44,44,44,1.00);
+  background-color: rgba(0,0,0,0.8);
   width: 100%;
   position: absolute;
-
 }
 
 .lg-header-nav {
@@ -171,8 +169,7 @@ header {
 
 
 #lg-logo, #lg-facebook, #lg-twitter, #lg-insta  {
-
-  height:51px;
+  max-height:25px;
 }
 
 .lg-social-icons {
@@ -188,13 +185,10 @@ header {
 }
 
 label {
-  font-size: 50px;
+  font-size: 40px;
   line-height:100px;
   cursor: pointer;
   color: white;
-}
-.lg-menu-items {
-    margin-left: 100px;
 }
 
 ul.lg-menu-items {
@@ -208,28 +202,16 @@ ul.lg-menu-items {
 
 ul.lg-menu-items a {
   text-decoration:none;
-  border-bottom: 1px solid #707070 ;
-
-  line-height:50px;
+  line-height:40px;
   text-align: center;
   color: white;
   display:block;
 
-  padding-bottom: 13px;
-  margin-bottom: 60px ;
-}
-
-ul.lg-menu-items a:hover {
-text-decoration:none;
-color: gray;
 }
 
 #lg-toggle:checked ~ ul.lg-menu-items {
   display:none;
 }
-
-  .desktop-menu-items {
-    display: none;}
 /*------LG Mobile Nav Style End-----*/
 /* end HEADER STUFF - MOBILE */
 
@@ -335,36 +317,9 @@ padding-bottom: 64px;
 padding-left: 51px;
 padding-right: 51px;
 margin-bottom: 64px;
-width:100%; }
-
-.box7 {
-  height: 443px;
-  width: 100%;
-  padding-right: 50px;
+width:100%;
 
 }
-
-.box8 {
-  background-image: url(../img/logo.nav.png);
-  background-position: center center;
-  width: 100%;
-  height: 148px;
-
-  background-repeat: no-repeat;
-
-  flex-shrink: 0;
-
-}
-
-.box8a {
-  display: flex;
-  width: 100%;
-  height: 148px;
-  padding-right: 50px;
-  align-content: center;
-  background-color: none;
-}
-
 
 .ourstory {
 
@@ -496,59 +451,57 @@ width: 100%;}
                         background-size: cover;
                         background-position: center center;
                         width: 100%;
-                        height: 1077px;
+                        height: 600px;
                         display:flex;
                         align-items: flex-start;
                         padding-top:150px;
                       }
 
                       .lg-banner-image img {
-                        height: 389px;
+                        height: 150px;
                         text-align: center;
                         margin: 0 auto;
                       }
 
 
                       header {
-                        background-color: rgba(44,44,44,0.85);
+                        background-color: rgba(0,0,0,0.8);
                         width: 100%;
-                        position: fixed;
-                        height: 110px;
+                        position: absolute;
 
                       }
 
                       .lg-header-nav {
-                        background-color: none;
-                        width: 100%;
+                        width:90%;
+                        margin: 0 auto;
+                        display:flex;
+                        flex-direction:row-reverse;
+                        padding: 30px 0px;
 
                       }
 
                       .lg-nav-bar {
-                        background-color: none;
                         display:flex;
                         align-items: center;
                         width: 100%;
-                        height: 110px;
                         margin: 0 auto;
                         position: relative;
                         justify-content: space-between;
                         padding: 0px;
                         flex-direction:row-reverse;
+
+
                       }
 
 
                       #lg-logo, #lg-facebook, #lg-twitter, #lg-insta  {
-                      height:57px;
+                        max-height:25px;
                       }
 
                       .lg-social-icons {
-
-                        width: 214px;
+                        width: 50%;
                         display:flex;
-                        justify-content: center;
-                        background-color: none;
                         justify-content: space-between;
-                        padding-right: 80px;
                   }
 
 
@@ -567,72 +520,8 @@ width: 100%;}
                         text-align: right;
                         border-top:none;
                         width: 60%;
-                        justify-content: space-around;
+                        justify-content: space-between;
                       }
-
-
-                      ul.lg-menu-items a {
-                        text-decoration:none;
-                        border-bottom: none;
-                        line-height:40px;
-                        text-align: center;
-                        color: white;
-                        display:block;
-                      }
-
-                      ul.lg-menu-items a:hover {
-                      text-decoration:none;
-                      color: gray;
-                      }
-
-                      .box7{
-                      display: none;
-
-
-                      }
-
-                      .box8 {
-                        display: none;
-                      }
-
-                      .box8a {
-                        display: none;
-                      }
-
-                    .desktop-menu-items {
-                      width: 100%;
-                      height: 110px;
-                      text-decoration:none;
-                      display: flex;
-                      justify-content: center;
-                      background-color: none;
-                      position:fixed;
-
-
-                    }
-
-                    ul.desktop-menu-items a {
-                      text-decoration:none;
-                      border-bottom: none;
-                      border-bottom: none;
-                      color: white;
-                    }
-
-                  ul.desktop-menu-items a:hover {
-                    text-decoration:none;
-                    color: gray;
-                    }
-
-                    .fixing-header{
-                      height:110px;
-                      width: 100%;
-                      background-color: white;
-                      display: flex;
-                      justify-content: center center;
-
-
-                    }
-
                     }
                     /*------LG Desktop Nav Style End-----*/
 
