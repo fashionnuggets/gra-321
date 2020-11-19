@@ -12,7 +12,7 @@ HTML doc
   <!--favicons should be saved as squares, at 32 x 32 px-->
   <link rel="icon" type="img/png" href="img/Favicon.png"/>
   <link href="./css/normalize.css" type="text/css" rel="stylesheet">
-  <link href="./css/style.css" type="text/css" rel="stylesheet">
+  <link href="css/style.css" type="text/css" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -26,60 +26,46 @@ HTML body
 
 
 <header>
-  <div class="header-box">
-
-      <div class="nav-bar">
-        <label for="toggle">&#9776;</label>
-        <!--
-        Linking social images
-      -->
-      <div class="social">
-      <img id="social-icon"
-
-        <a href="https://www.instagram.com/charlies_cafe_hayden/" target="_blank"><img src="https://fashionnuggets.github.io/gra-321/responsive-project/Mobile/img/insta.png" width="57" ></a>
-
-        <a href="https://twitter.com/asu?lang=en" target="_blank"><img src="https://fashionnuggets.github.io/gra-321/responsive-project/Mobile/img/tw.png" width="57" ></a>
-
-        <a href="https://www.facebook.com/charliescafeasu/" target="_blank"><img src="https://fashionnuggets.github.io/gra-321/responsive-project/Mobile/img/fb.png" width="57" ></a>
-      </div>
 
 
-    </div>
-    </div>
+  <ul class="desktop-menu-items">
+    <h3> <a href="#menu">Menu</a>
+  <a href="#about">About</a>
+   <a href="#contact">Contact</a> </h3>
+ </ul>
+
+  <div class="lg-header-nav">
+
+    <div class="lg-nav-bar">
+
+      <label for="lg-toggle">&#9776;</label>
 
 
-
-    <div>
-      <input type="checkbox" id="toggle">
-
-      <ul class="menu-items">
-
-        <h3> <li><a href="#menu">Menu</a></li>
-
-          <li><a href="#about">About</a> </li>
-
-          <li> <a href="#contact">Contact</a></li> </h3>
-        </ul>
-      </div> </div>
-
+      <div class="lg-social-icons">
+        <img id="lg-insta" src="img/insta.png" alt="instagram logo">
+        <img id="lg-twitter" src="img/tw.png" alt="twitter logo">
+        <img id="lg-facebook" src="img/fb.png" alt="facebook logo">
+      </div> 
 
     </div>
+    <input type="checkbox" id="lg-toggle">
 
+    <ul class="lg-menu-items">
+      <div class="box8a">
+      <div class="box8">    </div> </div>
+      <div class="box7">
 
-  </header>
-
-  <div class="container1">
-    <img id="logo" src="https://fashionnuggets.github.io/gra-321/responsive-project/Mobile/img/logo.png"
-    alt="charlie's cafe logo">
-
-
-    <div class="banner-image">
+      <h3> <li><a href="#menu">Menu</a></li>
+      <li><a href="#about">About</a> </li>
+      <li> <a href="#contact">Contact</a></li> </h3>
+    </ul>
     </div>
   </div>
+</header>
 
-
-
-
+<div class="lg-banner-image">
+  <img src="img/logo.png" alt="charlie's cafe logo">
+</div>
 
 
 
