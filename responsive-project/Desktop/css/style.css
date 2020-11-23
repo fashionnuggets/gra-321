@@ -299,7 +299,7 @@ height:776px;
 width:100%;
 
 width:100%;
-margin-top: 90px;
+margin-top: 42px;
 }
 
 .container5 {
@@ -511,7 +511,7 @@ width: 100%;}
 
 .titles-items {
   margin-bottom: 42px;
-  text-align: left;
+
 }
 
 .prices {
@@ -549,8 +549,31 @@ width: 100%;}
 
 
 
+
+
                     /*Desktop Styles*/
-                    @media only screen and (min-width: 500px) {
+                    @media only screen and (min-width: 700px) {
+
+
+                      .desktop-menu {
+
+                        width: 100%;
+
+                        display: flex;
+
+                      }
+
+                      .desktop-menu1 {
+
+                        width: 100%;
+
+
+                      }
+
+                      .desktop-menu2 {
+                        
+                        width: 100%;
+                       }
 
                     /* start HEADER STUFF - DESKTOP */
 
