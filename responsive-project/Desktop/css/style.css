@@ -307,7 +307,7 @@ background-image: url(../img/img5.png);
 background-size: cover;
 height:183px;
 width:320px;
-margin-top: 137px;
+margin-top: 200px;
 margin-bottom: 84px ;
 opacity: 60%;
 width:100%;}
@@ -360,7 +360,7 @@ background-color: white;
 height:550px;
 width:320px;
 padding-top: 64px;
-padding-bottom: 64px;
+
 padding-left: 51px;
 padding-right: 51px;
 margin-bottom: 64px;
@@ -410,6 +410,7 @@ text-align: center;
 .box6-7-8 {
 background-color: #414141;
 height:263px;
+margin-bottom: 60px;
 margin-left: 27px;
 margin-right: 27px;
 }
@@ -549,7 +550,7 @@ width: 100%;}
 
 
                     /*Desktop Styles*/
-                    @media only screen and (min-width: 700px) {
+                    @media only screen and (min-width: 500px) {
 
                     /* start HEADER STUFF - DESKTOP */
 
