@@ -50,14 +50,12 @@ font-size: 24pt;
 font-weight: 600;}
 
 h7{
-text-align: center;
 color: black;
 font-family:'Nunito', serif;
 font-size: 26pt;
 font-weight: 600;}
 
 h8{
-text-align: center;
 color: black;
 font-family:'Nunito', serif;
 font-size: 16pt;
@@ -72,6 +70,14 @@ font-size: 16pt;
 font-style: italic;
 font-weight: 300;}
 
+p1{
+text-align: left;
+color: white;
+font-family:'Nunito', serif;
+font-size: 16pt;
+font-style: italic;
+font-weight: 300;}
+
 p2{
 text-align: center;
 color: white;
@@ -80,6 +86,14 @@ font-size: 16pt;
 font-weight: 400;
 }
 
+p3{
+text-align: center;
+color: white;
+font-family:'Nunito', serif;
+font-size: 36pt;
+font-weight: 400;
+
+}
 
 p4{
 text-align: center;
@@ -123,7 +137,10 @@ text-align: center;
 color: #717171;
 font-family:'Nunito', serif;
 font-size: 24pt;
-font-weight: 600;}
+font-weight: 600;
+}
+
+
 
 /* start HEADER STUFF - MOBILE */
 /*------LG Mobile Nav Style Begin-----*/
@@ -209,7 +226,7 @@ ul.lg-menu-items {
 ul.lg-menu-items a {
   text-decoration:none;
   border-bottom: 1px solid #707070 ;
-
+list-style-type: none;
   line-height:50px;
   text-align: center;
   color: white;
@@ -228,8 +245,8 @@ color: gray;
   display:none;
 }
 
-  .desktop-menu-items {
-    display: none;}
+
+
 /*------LG Mobile Nav Style End-----*/
 /* end HEADER STUFF - MOBILE */
 
@@ -250,12 +267,16 @@ background-repeat; no-repeat
 margin-left: 27px;
 margin-right: 27px;
 
+
 }
 
 .s-m-l {
-block: inline;
+margin-right: 100px;
+display: flex;
+width: 100%
 color: #717171;
-padding: 46px 42px 38px 57px
+justify-content: space-around;
+
 }
 
 .container3 {
@@ -267,16 +288,19 @@ width: 320px;
 margin: 0 auto;
 width:100%;
 background-position: center center;
-background-repeat; no-repeat
+background-repeat: no-repeat;
+margin-top: 180px;
 }
 
 .container4 {
 background-image: url(../img/img4.jpeg);
 background-size: cover;
-height:576px;
-width:320px;
-margin: 0 auto;
-width:100%;}
+height:776px;
+width:100%;
+
+width:100%;
+margin-top: 90px;
+}
 
 .container5 {
 background-image: url(../img/img5.png);
@@ -289,46 +313,51 @@ opacity: 60%;
 width:100%;}
 
 .box1 {
-background-color: #646464;
-height:600px;
+background-color: #414141;
 
-margin-left: 27px;
-margin-right: 27px;
+padding-bottom: 41px;
 
+height:950px;
 }
 
 .box2 {
-background-color: #646464;
-height:176px;
-margin-left: 27px;
-margin-right: 27px;
+padding-top: 41px;
+background-color: #414141;
+height:260px;
+
 }
 
 .box3 {
-background-color: #646464;
-height:541px;
+background-color: #414141;
+height:780px;
+width: 100%;
+padding-left: 27px;
+padding-top: 41px;
+padding-right: 27px;
 margin-bottom: 46px ;
-margin-top: 46px ;
-width:100%;}
+margin-top: 85px ;
+line-height: normal;
+}
 
 .box4 {
-background-color: #646464;
-background-position: center;
-background-size: cover;
-height:320px;
+background-color: #414141;
+
+height:420px;
 width: 320px;
+padding-top: 43px;
+
 margin-bottom: 46px ;
 margin-top: 46px ;
 margin-left: 0px;
 margin-right: 0px;
-
 width:100%;
-background-position: center center;
-background-repeat; no-repeat}
+}
+
+
 
 .box5 {
 background-color: white;
-height:524px;
+height:550px;
 width:320px;
 padding-top: 64px;
 padding-bottom: 64px;
@@ -368,7 +397,6 @@ width:100%; }
 
 .ourstory {
 
-
 text-align: center;
 }
 
@@ -380,7 +408,7 @@ text-align: center;
 
 
 .box6-7-8 {
-background-color: #646464;
+background-color: #414141;
 height:263px;
 margin-left: 27px;
 margin-right: 27px;
@@ -480,16 +508,65 @@ padding-top: 53px;
 padding-bottom: 159px;
 width: 100%;}
 
+.titles-items {
+  margin-bottom: 42px;
+  text-align: left;
+}
+
+.prices {
+  margin-right: 100px;
+  margin-top: 31px;
+  margin-bottom: 31px;
+  display: flex;
+  justify-content: space-between;
+  background-color: blue;
+}
+
+.extras {
+  margin-right: 100px;
+  margin-top: 31px;
+  margin-bottom: 65px;
+  display: flex;
+  justify-content: space-between;
+  background-color: blue;}
+
+  .titles-items2 {
+    margin-top: 65px;
+    margin-bottom: 42px;
+    text-align: left;
+  }
+
+  .tea-box {
+    line-height: 56px;
+  }
+
+  .section-space{
+    padding-top: 90px;
+
+  }
+
 
 
 
                     /*Desktop Styles*/
-                    @media only screen and (min-width: 500px) {
+                    @media only screen and (min-width: 700px) {
 
                     /* start HEADER STUFF - DESKTOP */
 
                     /*------LG Desktop Nav Style Begin-----*/
                     /*Desktop Styles*/
+
+                    p3{
+                    text-align: center;
+                    color: white;
+                    font-family:'Nunito', serif;
+                    font-size: 36pt;
+                    font-weight: 400;
+                    display: flex;
+
+                  justify-content:space-around;
+                }
+
 
                       .lg-banner-image{
 
@@ -510,45 +587,59 @@ width: 100%;}
 
 
                       header {
-                        background-color: rgba(44,44,44,0.85);
+                        background-color: rgba(44,44,44,0.65);
                         width: 100%;
-                        position: fixed;
+                        position: absolute;
                         height: 110px;
+
 
                       }
 
                       .lg-header-nav {
+                        width:100%;
+                        height: 110px;
+                        margin: 0;
+                        padding: 0;
+                        display:flex;
+
+                        flex-direction:row-reverse;
+
+
                         background-color: none;
-                        width: 100%;
 
                       }
 
                       .lg-nav-bar {
-                        background-color: none;
                         display:flex;
                         align-items: center;
-                        width: 100%;
-                        height: 110px;
+                        width: 100px;
                         margin: 0 auto;
                         position: relative;
                         justify-content: space-between;
                         padding: 0px;
                         flex-direction:row-reverse;
+
+                        background-color: none;
                       }
 
 
                       #lg-logo, #lg-facebook, #lg-twitter, #lg-insta  {
-                      height:57px;
+                      height:51px;
                       }
 
                       .lg-social-icons {
 
-                        width: 214px;
+                        width: 100%;
                         display:flex;
-                        justify-content: center;
-                        background-color: none;
+                        height: 51px;
+                        min-width: 200px;
+                        width: 100%;
+                        margin-right: 20px;
+
+
                         justify-content: space-between;
-                        padding-right: 80px;
+                        background-color: none;
+
                   }
 
 
@@ -556,28 +647,48 @@ width: 100%;}
                         display:none;
                       }
 
+
+
                       label {
                         display:none;
                       }
 
+
+
+
+                      .lg-menu-items {
+                        margin: 0px;
+                        justify-content: space-between;
+                          width:100%;
+
+                      }
+
                       ul.lg-menu-items, #lg-toggle:checked ~ ul.lg-menu-items {
                         display: flex;
-                        margin: 0;
+                        margin: none;
+                        padding: none;
+                        border-bottom:none;
                         list-style-type: none;
-                        text-align: right;
-                        border-top:none;
-                        width: 60%;
-                        justify-content: space-around;
+                        text-align: left;
+
+                        width:100%;
+
+
+
+
                       }
 
 
                       ul.lg-menu-items a {
+
+                        margin: 0;
+                        padding: 0;
+                        border-top:none;
+                        list-style-type: none;
+                        text-align: left;
                         text-decoration:none;
                         border-bottom: none;
-                        line-height:40px;
-                        text-align: center;
-                        color: white;
-                        display:block;
+
                       }
 
                       ul.lg-menu-items a:hover {
@@ -586,54 +697,89 @@ width: 100%;}
                       }
 
                       .box7{
-                      display: none;
+                        height: 80px;
+                        padding-right: 0px;
+                        padding-left: 0px;
+                        margin-right: 171px;
+                        margin-left: 0px;
+                        margin-top: 30px;
 
+                        width: 100%;
+                        justify-content:space-between;
+
+
+
+
+                        background-color: none;
+                      }
+
+                      .box7 li{
+                        display:inline-block;
+                        align-content: center;
+                        align-items: center;
+                        text-align: center;
 
                       }
 
                       .box8 {
-                        display: none;
+                        background-color: none;
+                        background-image: none;
+                        text-align: center;
+                        padding: 0;
+                        margin: 0;
+                        height: 110px;
+                        width: 0;
+                        display: flex;
+                        justify-content:space-between;
+
+
+
                       }
 
                       .box8a {
-                        display: none;
+                        background-color: none;
+                        height: 110px;
+                        width: 0px;
+                        padding: 0;
+                        margin: 0;
+                        display: flex ;
+                        justify-content:space-between;
+
+
                       }
 
-                    .desktop-menu-items {
-                      width: 100%;
-                      height: 110px;
-                      text-decoration:none;
-                      display: flex;
-                      justify-content: center;
-                      background-color: none;
-                      position:fixed;
+
+                    /*  .box7 {
+                        height: 443px;
+                        width: 100%;
+                        padding-right: 50px;
+
+                      }
+
+                      .box8 {
+                        background-image: url(../img/logo.nav.png);
+                        background-position: center center;
+                        width: 100%;
+                        height: 148px;
+
+                        background-repeat: no-repeat;
+
+                        flex-shrink: 0;
+
+                      }
+
+                      .box8a {
+                        display: flex;
+                        width: 100%;
+                        height: 148px;
+                        padding-right: 50px;
+                        align-content: center;
+                        background-color: none;
+                      }
+*/
 
 
-                    }
 
-                    ul.desktop-menu-items a {
-                      text-decoration:none;
-                      border-bottom: none;
-                      border-bottom: none;
-                      color: white;
-                    }
-
-                  ul.desktop-menu-items a:hover {
-                    text-decoration:none;
-                    color: gray;
-                    }
-
-                    .fixing-header{
-                      height:110px;
-                      width: 100%;
-                      background-color: white;
-                      display: flex;
-                      justify-content: center center;
-
-
-                    }
-
-                    }
                     /*------LG Desktop Nav Style End-----*/
 
                     /* end HEADER STUFF - DESKTOP */
@@ -702,3 +848,4 @@ width: 100%;}
                     width:1440px;
                     margin: 0 auto;
                     width:100%;}
+}
