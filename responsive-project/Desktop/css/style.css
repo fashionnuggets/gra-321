@@ -282,11 +282,13 @@ margin-right: 27px;
 }
 
 .s-m-l {
-margin-right: 100px;
+
 display: flex;
-width: 100%
+
 color: #717171;
-justify-content: space-around;
+padding-left: 25px;
+padding-right: 135px;
+justify-content: space-between;
 
 }
 
@@ -531,21 +533,26 @@ width: 100%;}
 }
 
 .prices {
-  margin-right: 100px;
+padding-right: 100px;
   margin-top: 31px;
   margin-bottom: 31px;
+margin-left: 0px;
+margin-right: 0px;
   display: flex;
   justify-content: space-between;
-  background-color: blue;
+
 }
 
 .extras {
-  margin-right: 100px;
+  padding-right: 100px;
   margin-top: 31px;
   margin-bottom: 65px;
+  margin-left: 0px;
+  margin-right: 0px;
   display: flex;
   justify-content: space-between;
-  background-color: blue;}
+
+  }
 
   .titles-items2 {
     margin-top: 65px;
@@ -613,8 +620,22 @@ a:hover {
                     /*Desktop Styles*/
                     @media only screen and (min-width: 700px) {
 
+                      .container3 {
+                      background-image: url(../img/img3.jpeg);
+                      background-position: center;
+                      background-size: cover;
+                      height:183px;
+                      margin: 0 auto;
+                      width:100%;
+
+                      background-position: center;
+                      background-repeat: no-repeat;
+                      margin-top: 180px;
+                    }
+
                       .box6-7-8 {
                       background-color: #414141;
+                      width: 350px;
                       padding-top: 27px;
                       padding-bottom: 27px;
                       margin-bottom: 60px;
@@ -642,6 +663,8 @@ a:hover {
                       margin-left: 93px;
                       margin-right: 93px;
                       }
+
+
 
 
                       .desktop-menu {
@@ -702,7 +725,7 @@ a:hover {
                        margin-top: 85px ;
                        margin-left: 0px;
                        margin-right: 0px;
-                       width:720px;
+                       width:45%;
                        }
 
                        .desktop-grilled {
@@ -731,8 +754,8 @@ a:hover {
                        .container4a {
                        background-image: url(../img/img4.jpeg);
                        background-size: cover;
-                       height:976px;
-                       width:150%;
+                       height:900px;
+                       width:155%;
                        background-position:right ;
                        display: flex;
                        justify-content: flex-end;
@@ -743,16 +766,15 @@ a:hover {
 
                        .container4a h10 {
                          background-color: white;
-
                          text-align: center;
                          margin: 0 auto;
                          margin-left: 93px;
-                         margin-top: 170px;
+                         margin-top: 200px;
                          padding-top: 27px;
                          padding-bottom: 27px;
                          padding-left: 27px;
                          padding-right: 27px;
-                         width: 355px;
+                         width: 550px;
 
                        }
 
@@ -770,7 +792,7 @@ a:hover {
 
                        .desktop-LOCATIONS{
                          display: flex;
-
+                         justify-content: space-between;
                          margin-left: 66px;
                          margin-right: 66px;
                        }
