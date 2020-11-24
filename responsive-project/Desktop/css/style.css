@@ -61,6 +61,17 @@ font-family:'Nunito', serif;
 font-size: 16pt;
 font-weight: 400;}
 
+h9{
+color: rgba(255, 255, 255, .0);
+font-family:'Nunito', serif;
+font-size: 26pt;
+font-weight: 600;}
+
+h10{
+color: rgba(255, 255, 255, .0);
+font-family:'Nunito', serif;
+font-size: 16pt;
+font-weight: 400;}
 
 p{
 text-align: center;
@@ -256,7 +267,7 @@ background-image: url(../img/img2.jpg);
 background-position: center;
 background-size: cover;
 height:183px;
-width:320px;
+
 margin: 0 auto;
 width:100%;
 background-position: center center;
@@ -284,7 +295,7 @@ background-image: url(../img/img3.jpeg);
 background-position: center;
 background-size: cover;
 height:183px;
-width: 320px;
+
 margin: 0 auto;
 width:100%;
 background-position: center center;
@@ -307,7 +318,7 @@ margin-top: 42px;
 background-image: url(../img/img5.png);
 background-size: cover;
 height:183px;
-width:320px;
+
 margin-top: 200px;
 margin-bottom: 84px ;
 opacity: 60%;
@@ -413,18 +424,19 @@ text-align: center;
 
 .box6-7-8 {
 background-color: #414141;
-height:263px;
+padding-top: 27px;
+padding-bottom: 27px;
 margin-bottom: 60px;
 margin-left: 27px;
 margin-right: 27px;
+
+
 }
 }
 
 .location-text {
 color: white;
-text-align: center;
-text-align: middle;
-padding: 32px;
+
 
 
 }
@@ -551,6 +563,45 @@ width: 100%;}
   }
 
 
+  .container4a h10 {
+    background-color: rgba(255, 255, 255, .0);
+
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 93px;
+    margin-top: 100px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    padding-left: 27px;
+    padding-right: 27px;
+    width: 355px;
+
+  }
+
+  .container4a {
+  background-image: url(../img/img4.jpeg);
+  background-size: cover;
+  height:976px;
+  width:150%;
+  background-position:right ;
+  display: flex;
+  justify-content: flex-end;
+  align-items:flex-start;
+
+  margin-top: 42px;
+  }
+
+  a:link {
+    color: white;
+  }
+
+a:hover {
+  color: DodgerBlue;
+}
+
+
+
+
 
 
 
@@ -561,6 +612,27 @@ width: 100%;}
 
                     /*Desktop Styles*/
                     @media only screen and (min-width: 700px) {
+
+                      .box6-7-8 {
+                      background-color: #414141;
+                      padding-top: 27px;
+                      padding-bottom: 27px;
+                      margin-bottom: 60px;
+
+                      }
+
+                      h9{
+                      color: black;
+                      font-family:'Nunito', serif;
+                      font-size: 26pt;
+                      font-weight: 600;}
+
+                      h10{
+                      color: black;
+                      font-family:'Nunito', serif;
+                      font-size: 16pt;
+                      font-weight: 400;}
+
 
                       .h2-items {
                       margin-left: 93px;
@@ -595,13 +667,7 @@ width: 100%;}
                          margin-right: 93px;
                        }
 
-                       .desktop-deals1 {
-                         justify-content: space-between;
-                       }
 
-                       .desktop-deals2 {
-                         justify-content: space-between;
-                       }
 
                        .box3 {
                        background-color: #414141;
@@ -671,13 +737,13 @@ width: 100%;}
                        margin-top: 42px;
                        }
 
-                       .container4a h8 {
-                         background-color: rgba(255, 255, 255, .8);
+                       .container4a h10 {
+                         background-color: white;
 
                          text-align: center;
                          margin: 0 auto;
                          margin-left: 93px;
-                         margin-top: 100px;
+                         margin-top: 170px;
                          padding-top: 27px;
                          padding-bottom: 27px;
                          padding-left: 27px;
@@ -686,7 +752,24 @@ width: 100%;}
 
                        }
 
+                       .container5 {
+                       background-image: url(../img/img5.png);
+                       background-size: cover;
+                       background-position: center center;
+                       height:183px;
 
+                       margin-top: 200px;
+                       margin-bottom: 84px ;
+                       opacity: 60%;
+                       width:100%;}
+
+
+                       .desktop-LOCATIONS{
+                         display: flex;
+
+                         margin-left: 93px;
+                         margin-right: 93px;
+                       }
 
                     /* start HEADER STUFF - DESKTOP */
 
