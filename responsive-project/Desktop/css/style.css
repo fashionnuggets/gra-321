@@ -145,7 +145,7 @@ font-weight: 600;
 /* start HEADER STUFF - MOBILE */
 /*------LG Mobile Nav Style Begin-----*/
 .lg-banner-image{
-  background-image: url("https://raw.githubusercontent.com/LindseyMarieGomez/fall-2020/master/img/blain-img1.png");
+  background-image: url(../img/img1.png);
   background-size: cover;
   background-position: center center;
   width: 100%;
@@ -297,7 +297,8 @@ background-image: url(../img/img4.jpeg);
 background-size: cover;
 height:776px;
 width:100%;
-
+background-position: center center;
+display: flex;
 width:100%;
 margin-top: 42px;
 }
@@ -329,11 +330,13 @@ height:260px;
 
 .box3 {
 background-color: #414141;
-height:780px;
+
 width: 100%;
 padding-left: 27px;
 padding-top: 41px;
 padding-right: 27px;
+padding-bottom: 41px;
+
 margin-bottom: 46px ;
 margin-top: 85px ;
 line-height: normal;
@@ -342,14 +345,15 @@ line-height: normal;
 .box4 {
 background-color: #414141;
 
-height:420px;
-width: 100%;
-padding-top: 43px;
 
+width: 100%;
+padding-top: 41px;
+padding-bottom: 41px;
+padding-left: 27px;
+padding-right: 27px;
 margin-bottom: 46px ;
 margin-top: 46px ;
-margin-left: 0px;
-margin-right: 0px;
+
 width:100%;
 }
 
@@ -357,12 +361,12 @@ width:100%;
 
 .box5 {
 background-color: white;
-height:550px;
-width:320px;
-padding-top: 64px;
 
-padding-left: 51px;
-padding-right: 51px;
+
+padding-top: 64px;
+padding-bottom: 64px;
+padding-left: 27px;
+padding-right: 27px;
 margin-bottom: 64px;
 width:100%; }
 
@@ -551,8 +555,17 @@ width: 100%;}
 
 
 
+
+
+
+
                     /*Desktop Styles*/
                     @media only screen and (min-width: 700px) {
+
+                      .h2-items {
+                      margin-left: 93px;
+                      margin-right: 93px;
+                      }
 
 
                       .desktop-menu {
@@ -578,8 +591,8 @@ width: 100%;}
                        .desktop-deals {
                          display: flex;
 
-                         margin-left: 27px;
-                         margin-right: 27px;
+                         margin-left: 93px;
+                         margin-right: 93px;
                        }
 
                        .desktop-deals1 {
@@ -592,11 +605,13 @@ width: 100%;}
 
                        .box3 {
                        background-color: #414141;
-                       height:680px;
+
                        width: 100%;
-                       padding-left: 27px;
                        padding-top: 41px;
+                       padding-bottom: 41px;
+                       padding-left: 27px;
                        padding-right: 27px;
+
                        margin-bottom: 46px ;
                        margin-top: 85px ;
                        margin-right: 46px;
@@ -606,9 +621,12 @@ width: 100%;}
                        .box4 {
                        background-color: #414141;
 
-                       height:680px;
+
                        width: 100%;
-                       padding-top: 43px;
+                       padding-top: 41px;
+                       padding-bottom: 41px;
+                       padding-left: 27px;
+                       padding-right: 27px;
 
                        margin-bottom: 46px ;
                        margin-top: 85px ;
@@ -616,6 +634,58 @@ width: 100%;}
                        margin-right: 0px;
                        width:720px;
                        }
+
+                       .desktop-grilled {
+                         width: 100%;
+
+                         display: flex;
+                       }
+
+                       .desktop-grilled1 {
+                         width: 100%;
+
+                       }
+
+                       .desktop-grilled2 {
+                         width: 100%;
+                       }
+
+
+
+                       .box5 {
+                         display: none
+                       }
+                       .container4 {
+                       display: none;
+                       }
+                       .container4a {
+                       background-image: url(../img/img4.jpeg);
+                       background-size: cover;
+                       height:976px;
+                       width:150%;
+                       background-position:right ;
+                       display: flex;
+                       justify-content: flex-end;
+                       align-items:flex-start;
+
+                       margin-top: 42px;
+                       }
+
+                       .container4a h8 {
+                         background-color: rgba(255, 255, 255, .8);
+
+                         text-align: center;
+                         margin: 0 auto;
+                         margin-left: 93px;
+                         margin-top: 100px;
+                         padding-top: 27px;
+                         padding-bottom: 27px;
+                         padding-left: 27px;
+                         padding-right: 27px;
+                         width: 355px;
+
+                       }
+
 
 
                     /* start HEADER STUFF - DESKTOP */
